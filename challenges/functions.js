@@ -51,10 +51,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// ANSWER ==========
+// *******************************************   ANSWER  *************************************************
 
-/* Creating a function within another function changes the scope of the function in the same way it would change the scope of a variable. This is especially important for use with closures to reduce total global namespace pollution.
-The functions defined within another function won't be accessible outside the function unless they have been attached to an object that is accessible outside the function */
+/* Creating a function within another function (nested function) changes the scope of the function in the same way it would change the scope of a variable. This helps to reduce pollution. */
 
 // Explanation: 
 
